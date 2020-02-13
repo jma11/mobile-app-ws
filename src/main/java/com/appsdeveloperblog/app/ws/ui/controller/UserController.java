@@ -40,7 +40,7 @@ public class UserController {
 			@RequestParam(value = "limit", defaultValue = "50") int limit,
 			@RequestParam(value = "sort", defaultValue = "desc", required = false) String sort) {
 		return "get user was called with page = " + page + " and limit = " + limit + " and sort = " 
-			+ sort;
+			+ sort + ", new version";
 	}
 	
 	@GetMapping(path = "/{userId}", 
